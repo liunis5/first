@@ -1,0 +1,93 @@
+/* 轮播图 */
+.li-slide {
+    position: relative;
+    width: 1024px;
+
+
+    left: 50%;
+    transform: translateX(-50%)
+}
+.li-slide-image {
+    display: none;
+    /* width: 800px */
+}
+/*li-slide-image*/
+.li-active {
+    display: inline-block;
+    /* width: 800px */
+}
+
+/* 按钮 */
+.li-slide-button {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    /* background: #e00e8c21; */
+    background: rgba(0, 0, 0, 0.5);
+    border: 0;
+}
+
+.li-slide-button:focus {
+    outline: none;
+    /* outline-style: none; */
+}
+
+.li-vertical-center {
+    /*
+    下面三行是一个用来实现垂直居中的套路
+    */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* .li-slide-button:hover {
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+} */
+.li-left {
+    left: 0px;
+}
+.li-left:hover {
+    color: #ffffff;
+    background: #1ca51a26;
+    cursor: pointer;
+}
+.li-right {
+    right: 0px;
+}
+.li-right:hover {
+    color: #ffffff;
+    background: #e00e8c21;
+    cursor: pointer;
+}
+
+/* 小圆点 */
+.li-slide-indicators {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    text-align: center;
+    /*background: white;*/
+    line-height: 12px;
+}
+.li-slide-indi {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #e32323;
+}
+.li-slide-indi:hover {
+    cursor: pointer;
+}
+
+.li-white {
+    /* background: #1ca51a26; */
+    /* background: #ffffff; */
+    background: black;
+}
