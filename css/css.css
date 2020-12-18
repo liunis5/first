@@ -35,9 +35,7 @@
 }
 
 .li-vertical-center {
-    /*
-    下面三行是一个用来实现垂直居中的套路
-    */
+    /*垂直居中的套路*/
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
